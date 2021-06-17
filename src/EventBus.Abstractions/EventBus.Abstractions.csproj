@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Kuvondik</Authors>
+    <Company>Kuvondik</Company>
+    <Description>Event bus abstractions for a leightweihgt event bus system.</Description>
+    <Copyright>2020</Copyright>
+    <PackageIcon>nuget-eventbus.png</PackageIcon>
+    <PackageTags>kuvondik eventbus event bus</PackageTags>
+    <PackageReleaseNotes>First release of event bus asbtractions</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
